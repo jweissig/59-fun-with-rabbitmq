@@ -7,7 +7,7 @@
 Launch RabbitMQ in Docker
 
 ```
-$ docker run -d -p 5671:5671 -p 5672:5672 -p 15672:15672 rabbitmq:3.6.6-management
+$ docker run -d -p 5672:5672 -p 15672:15672 rabbitmq:3.6.6-management
 Unable to find image 'rabbitmq:3.6.6-management' locally
 3.6.6-management: Pulling from library/rabbitmq
 693502eb7dfb: Pull complete
